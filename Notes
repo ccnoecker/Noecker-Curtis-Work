@@ -1,6 +1,26 @@
 Curtis Noecker Work Notes
 
-Sean Deal - Thesis
+Sean Deal - Thesis - http://digitalcommons.csbsju.edu/honors_thesis/10/
+
+Topics and links of study:
+
+Parallel Programming, MPI
+https://computing.llnl.gov/tutorials/parallel_comp/
+https://computing.llnl.gov/tutorials/mpi/
+
+Shells, linux command line
+http://linuxcommand.org/learning_the_shell.php
+
+WebTrilinos
+https://trilinos.org/packages/web-trilinos/webtrilinos-docker-image/
+
+Trilinos install steps on hpc0:
+1) git clone https://github.com/trilinos/Trilinos.git
+2) cd into shell directory
+3) ./trilinos_install.txt
+4) make
+5)ctest -j (# of parallel processes)
+
 
 
 
